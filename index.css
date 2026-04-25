@@ -1,0 +1,113 @@
+ /* fru {color: red;}
+.veg {color: brown}
+.veg > ul > li {color: purple;}
+.fru > ul > li {color: red;} */
+ /* .container {height: 500px;
+width: 500px;
+background-color: red;}
+ div{
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    color: white;
+}
+.red0 {
+  background-color: rgb(44, 132, 198, 1);
+  width: 100%;
+}
+.red1 {
+  background-color: rgb(41, 146, 207, 1);
+  width: 100%;
+}
+.red2 {
+  background-color: rgb(41, 158, 217, 1);
+  width: 100%;
+}
+.red3 {
+  background-color: rgb(63, 169, 224, 1);
+  width: 100%;
+}
+.red4 { 
+  background-color: rgb(85, 179, 228, 1);
+  width: 100%;
+}
+.red5 { 
+  background-color: rgb(116, 192, 235, 1);
+  width: 100%;
+}
+.red6 { 
+  background-color: rgb(144, 201, 237, 1);
+  width: 100%;
+}
+.red7 { 
+  background-color: rgb(144, 201, 237, 1);
+  width: 100%;
+}
+.red7 { 
+  background-color: rgb(22, 182, 134, 1);
+  width: 100%;
+}
+.red8 { 
+  background-color: rgb(243, 174, 203, 1);
+  width: 100%;
+}
+.red9 { 
+  background-color: rgb(243, 155, 189, 1);
+  width: 100%;
+}
+.red10 { 
+  background-color: #F18BB3;
+  width: 100%;
+}
+.red11 { 
+  background-color: #F279A4; 
+  width: 100%;
+}
+.red12 { 
+  background-color: #EF6897; 
+  width: 100%;
+}
+.red13 { 
+  background-color: #EF598A; 
+  width: 100%;
+}
+.red14 {
+    background-color: #EC3D7E;
+ }
+ .font-cont { 
+    font-size: 32px;
+}
+.H1-Head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+ /* */ 
+
+ /* .em {
+  font-size: 32px;
+  .main-container > p {
+    font-size: 1em;
+  }
+ } */ 
+
+ .menu {
+  background-color: black;
+  padding: 20px 20px;
+  
+  }
+  body{
+    margin: 0;
+  }
+  .menu  ul li a {
+color: white;
+text-decoration: none;
+  }
+.menu ul {
+  display :flex;
+  justify-content: center;
+}
+.menu ul li {
+  margin: 0 15px;
+}
+
+  .
