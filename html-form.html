@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Bio Data</legend>
+
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" required minlength="5" maxlength="10">
+            </div>
+
+            <div class="form-group">
+                <label>Date of Birth:</label>
+                <input type="date" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label>Profile Picture:</label>
+                <input type="file" name="profile">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+
+            <div class="form-group">
+                <label>Nationality:</label>
+                <select name="nationality">
+                    <option value="">Select</option>
+                    <option>Pakistani</option>
+                    <option>Indian</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>City:</label>
+                <select name="city">
+                    <option value="">Select</option>
+                    <option>Karachi</option>
+                    <option>Lahore</option>
+                    <option>Islamabad</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Experience</legend>
+
+            <div class="form-group">
+                <label>Total Professional Experience:</label>
+                <input type="number" name="experience" min="5">
+            </div>
+
+            <div class="form-group">
+                <label>Qualification:</label>
+                <select name="qualification">
+                    <option value="">Select</option>
+                    <option>Matric</option>
+                    <option>Intermediate</option>
+                    <option>Graduation</option>
+                    <option>Master</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Details</legend>
+
+            <div class="form-group">
+                <label>Favourite Subjects:</label>
+                <select name="subjects" multiple size="4">
+                    <option>Math</option>
+                    <option>Science</option>
+                    <option>English</option>
+                    <option>Computer</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

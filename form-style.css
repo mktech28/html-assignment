@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* FIELDSET */
+fieldset {
+    border: 2px solid #444;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* LEGEND */
+legend {
+    font-weight: bold;
+}
+
+/* GROUP */
+.form-group {
+    margin-bottom: 12px;
+}
+
+/* LABEL */
+label {
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+}
+
+/* INPUT ALIGNMENT */
+input, select {
+    padding: 5px;
+}
+
+/* RADIO FIX */
+input[type="radio"] {
+    width: auto;
+}
+
+/* MULTI SELECT */
+select[multiple] {
+    width: 180px;
+    height: 80px;
+}
+
+/* BUTTON */
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
